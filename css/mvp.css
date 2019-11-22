@@ -1,0 +1,128 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  background-color: rgb(200, 200, 200);
+}
+
+#sign-in, #sign-up, #post, #profile {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  padding: 10em;
+  background-color: rgb(255, 255, 255);
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+.button {
+  cursor: pointer;
+}
+
+nav {
+  background-color: rgb(255, 255, 255);
+  padding: 1em;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.main-nav li:first-child {
+  margin-right: auto;
+}
+
+.main-nav li {
+  list-style: none;
+}
+
+a.button {
+  margin: 10px;
+  border-radius: 5px;
+  background: rgb(0, 121, 211);
+  color: #fff;
+	padding: 15px;
+	text-decoration: none;
+}
+
+.main-nav .logo {
+  margin-right: auto;
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  padding-top: 10px;
+  font-size: 24px;
+}
+
+#logo {
+  height: 35px;
+  width: 23px;
+  background-color: #f00;
+  border-radius: 50%;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  padding: 0 4px 2px 13px;
+  margin-right: 5px;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+article {
+  padding: 1em;
+  margin: 1em;
+  background-color: rgb(255, 255, 255);
+}
+
+article .author-container {
+  text-align: right;
+}
+
+.close {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  cursor: pointer;
+}
+
+.background {
+  position:fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  color: rgb(255,0,0);
+}
+
+.form div {
+  margin-bottom: 1em;
+}
+
+.form div.button {
+  margin-top: 5em;
+}
+
+article .comment-delete {
+  text-align: right;
+}
+
+.comment-author {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.form-group  {
+  display: flex;
+}
+
+a.button.delete-post {
+  margin: 2em auto;
+}

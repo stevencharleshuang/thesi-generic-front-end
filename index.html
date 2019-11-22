@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>thesi</title>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <link href="css/mvp.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <nav>
+    <ul class="main-nav">
+      <li><a href="#" class="logo button"><span id="logo">t</span>thesi</a></li>
+      <li><a href="#" id="sign-in-button" class="action button">Sign In</a></li>
+      <li><a href="#" id="sign-up-button" class="action button">Sign Up</a></li>
+      <li><a href="#" id="profile-button" class="action button hidden"></a></li>
+      <li><a href="#" id="post-button" class="action button hidden">Post</a></li>
+      <li><a href="#" id="sign-out-button" class="action button hidden">Sign Out</a></li>
+    </ul>
+  </nav>
+
+  <!-- Masthead -->
+  <div id="posts">
+
+
+  </div>
+
+  <div class="background hidden">
+    <div id="sign-in" class="hidden form">
+      <a class="close">&times;</a>
+      <h3>Sign In</h3>
+      <form>
+        <div>
+          <input type="email" id="signinEmail" placeholder="Enter email" value="superman@superhero.com">
+        </div>
+        <div>
+          <input type="password" id="signinPassword" placeholder="Password" value="super">
+        </div>
+        <div class="button">
+          <a class="button">Sign In</a>
+        </div>
+        <div class="hidden error">Please enter valid credentials</div>
+      </form>
+    </div>
+
+    <div id="sign-up" class="hidden form">
+        <a class="close">&times;</a>
+        <h3>Sign Up</h3>
+        <form>
+        <div class="form-group">
+          <input type="email" class="form-control" id="inputUsername" placeholder="Username">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        </div>
+        <div class="button">
+          <a class="button">Sign Up</a>
+        </div>
+      </form>
+    </div>
+
+    <div id="post" class="hidden form">
+        <a class="close">&times;</a>
+        <h3>Post</h3>
+        <form>
+        <div class="form-group">
+          <input type="text" id="post-title" placeholder="Title" value="hello" />
+          <textarea id="post-content" placeholder="What's on your mind?">Lorem Ipsum</textarea>
+        </div>
+        <div class="button">
+          <a class="button">Post</a>
+        </div>
+      </form>
+    </div>
+
+    <div id="profile" class="hidden form">
+        <a class="close">&times;</a>
+        <h3>Hello, <span id="profile-username"></span></h3>
+        <form>
+        <div class="form-group">
+          <input type="text" id="profile-additional-email" placeholder="Additional Email" />
+          <input type="text" id="profile-address" placeholder="Address" />
+          <input type="text" id="profile-mobile" placeholder="Mobile Number" />
+        </div>
+        <div class="button">
+          <a class="button">Update Profile</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <article class="hidden">
+    <h2 class="title"></h2>
+    <div class="body"></div>
+    <div class="author-container">
+      <p>Posted by: <span class="author"></span></p>
+      <a class="button delete-post hidden">Delete Post</a>
+    </div>
+    <div>
+      <textarea class="comment-body" placeholder="What's on your mind?">Lorem Ipsum</textarea> <a class="button add-comment">Comment</a>
+    </div>
+    <div class="comments-container hidden">
+      <h4>Commments:</h4>
+    </div>
+    <article class="comments hidden">
+      <span class="comment-author"></span>
+
+      <div class="body"></div>
+        <div class="comment-delete hidden"><a class="button delete-comment">Delete</a></div>
+    </article>
+  </article>
+
+  <script src="js/mvp.js"></script>
+
+</body>
+
+</html>
+
