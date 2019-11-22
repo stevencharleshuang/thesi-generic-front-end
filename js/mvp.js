@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     */
   const commentsTemplate = document.querySelector(".comments");
 
-  const host = "http://thesi-ga.herokuapp.com";
+  const host = "http://localhost:8080";
 
   /**
     * @function populateProfile
